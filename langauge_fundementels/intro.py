@@ -1,0 +1,1 @@
+print(" hlo my name is dijo am from kandassankadavu .\n currently am learning python datascience at luminar.")
