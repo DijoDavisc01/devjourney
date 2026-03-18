@@ -54,12 +54,12 @@ lst1=[
     {"car":"benz","model":2000,"price":1000000},
     {"car":"bmw","model":2002,"price":1500000},
 ]
-# lst_copy=lst1.copy()
-# lst_copy[0]["car"]="bmw"
-# print(lst1,"\n",lst_copy)
-# lst_copyy=deepcopy(lst1)
-# lst_copyy[0]["car"]="bmw"
-# print(lst1,"\n",lst_copyy)
+lst_copy=lst1.copy()
+lst_copy[0]["car"]="bmw"
+print(lst1,"\n",lst_copy)
+lst_copyy=deepcopy(lst1)
+lst_copyy[0]["car"]="bmw"
+print(lst1,"\n",lst_copyy)
 """
 7. Create a dictionary containing a list as a value. Perform shallow copy and modify the list. Print both dictionaries.
 """
